@@ -1,5 +1,6 @@
-namespace Balta.ContentContext
-{
+namespace Balta.ContentContext;
+using  Balta.SharedContext;
+
     public class Lecture : Base
     {
         public int Ordem { get; set; }
@@ -7,4 +8,3 @@ namespace Balta.ContentContext
         public int DurationInMinutes { get; set; }
         public EContentLevel Level { get; set; } 
     }
-}

@@ -1,5 +1,7 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using Balta.ContentContext;
+using  Balta.SharedContext;
+using Balta.SubscriptionContext;
 
 var articles = new List<Article>();
 articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
@@ -40,4 +42,8 @@ foreach(var career in careers)
         Console.WriteLine($"{item.Order} - {item.Title}");
         Console.WriteLine(item.Course.Level);
     }
+
+    var payPalSubscription = new PayPalSubscription();
+    var student = new Student();
+    student.CreateSubscription(payPalSubscription);
 }

@@ -1,5 +1,6 @@
     namespace Balta.ContentContext;
     using Balta.NotificationContext;
+    using  Balta.SharedContext;
     
     public class CareerItem : Base
     {
