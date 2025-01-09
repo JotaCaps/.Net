@@ -1,6 +1,6 @@
-    namespace Balta.ContentContext;
-    
-    public class Module
+namespace Balta.ContentContext
+{  
+    public class Module : Base
     {
         public int Order { get; set; }
         public string Title { get; set; }
@@ -10,4 +10,5 @@
         {
             Lectures = new List<Lecture>();
         }
-    } 
+    }
+} 

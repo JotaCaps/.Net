@@ -1,0 +1,15 @@
+C:\Estudos\.Net\Balta\bin\Debug\net8.0\Balta.exe
+C:\Estudos\.Net\Balta\bin\Debug\net8.0\Balta.deps.json
+C:\Estudos\.Net\Balta\bin\Debug\net8.0\Balta.runtimeconfig.json
+C:\Estudos\.Net\Balta\bin\Debug\net8.0\Balta.dll
+C:\Estudos\.Net\Balta\bin\Debug\net8.0\Balta.pdb
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.AssemblyInfoInputs.cache
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.AssemblyInfo.cs
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.csproj.CoreCompileInputs.cache
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.sourcelink.json
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.dll
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\refint\Balta.dll
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.pdb
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\Balta.genruntimeconfig.cache
+C:\Estudos\.Net\Balta\obj\Debug\net8.0\ref\Balta.dll
