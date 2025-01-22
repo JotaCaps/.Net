@@ -54,3 +54,4 @@ C:\Estudos\.Net\BaltaDataAccess\obj\Debug\net8.0\refint\BaltaDataAccess.dll
 C:\Estudos\.Net\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.pdb
 C:\Estudos\.Net\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.genruntimeconfig.cache
 C:\Estudos\.Net\BaltaDataAccess\obj\Debug\net8.0\ref\BaltaDataAccess.dll
+C:\Estudos\.Net\BaltaDataAccess\bin\Debug\net8.0\Dapper.dll
