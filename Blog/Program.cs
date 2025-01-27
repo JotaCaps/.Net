@@ -10,8 +10,9 @@ internal class Program
     {
         //ReadUsers();
         //ReadUser();
-        CreateUser();
-        UpdateUser();
+        //CreateUser();
+        //UpdateUser();
+        DeleteUser();
     }
 
     static void ReadUsers()
@@ -71,7 +72,17 @@ internal class Program
         using (var connection = new SqlConnection(CONNECTION_STRING))
         {
             connection.Update<User>(user);
-            Console.WriteLine("Atualização realizado com secesso!");
+            Console.WriteLine("Atualização realizada com secesso!");
+        }
+    }
+
+    static void DeleteUser()
+    {
+        using (var connection = new SqlConnection(CONNECTION_STRING))
+        {
+            var user = connection.Get<User>(2);
+            connection.Delete<User>(user);
+            Console.WriteLine("Exclusão realizada com secesso!");
         }
     }
 
