@@ -68,6 +68,6 @@ internal class Program
             title = "Frontend 2025"
         });
 
-        System.Console.WriteLine($"{rows} Registros atualizados");
+        Console.WriteLine($"{rows} Registros atualizados");
     }
 }
