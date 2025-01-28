@@ -1,6 +1,6 @@
 using Dapper.Contrib.Extensions;
 
-namespace BLog.Models
+namespace Blog.Models
 {
     [Table("[User]")]
     public class User {
