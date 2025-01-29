@@ -6,6 +6,7 @@ using Blog.Repositories;
 using System.Data.Common;
 using System.Reflection.Metadata.Ecma335;
 using System.Reflection.Metadata;
+using Blog.Screens.TagScreens;
 
 internal class Program
 {
@@ -15,20 +16,38 @@ internal class Program
         var connection = new SqlConnection(CONNECTION_STRING);
         connection.Open();
 
-        Console.WriteLine("O que deseja fazer?: ");
-        Console.WriteLine("1 - Cadastrar usuário");
-        int resp = int.Parse(Console.ReadLine());
-        
-        switch(resp)
-        {
-            case 1: 
-                CreateUser(connection);
-            break;
-        }
+        Load();
 
+        Console.ReadKey();
         connection.Close();
     }
 
+        private static void Load()
+        {
+            Console.Clear();
+            Console.WriteLine("Meu BLog");
+            Console.WriteLine("-------------"); 
+            Console.WriteLine("O que deseja fazer?"); 
+            Console.WriteLine(); 
+            Console.WriteLine("1 - Gestão de usuário"); 
+            Console.WriteLine("2 - Gestão de perfil"); 
+            Console.WriteLine("3 - Gestão de Categoria");
+            Console.WriteLine("4 - Gestão de tag");
+            Console.WriteLine("5 - Vincular perfil/usuário"); 
+            Console.WriteLine("6 - Vincular post/tag");
+            Console.WriteLine("7 - Relatórios"); 
+            Console.WriteLine();
+            Console.WriteLine();
+            var option = short.Parse(Console.ReadLine()!);
+
+            switch (option)
+            {
+                case 1:
+                    MenuTagScreen.Load();
+                    break;
+                default: Load(); break;
+            }
+        }
         static void ReadUserWithRoles(SqlConnection connection)
     {
         var repository = new UserRepository(connection);
