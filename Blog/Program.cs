@@ -15,23 +15,37 @@ internal class Program
         var connection = new SqlConnection(CONNECTION_STRING);
         connection.Open();
 
-        ReadUsers(connection);
-        ReadRoles(connection);
-        ReadTags(connection);
+        //ReadUsers(connection);
+        //ReadRoles(connection);
+        //ReadTags(connection);
         //CreateTag(connection);
         //UpdateTag(connection);
-        DeleteTag(connection);
+        //DeleteTag(connection);
+        CreateUser(connection);
 
         connection.Close();
     }
 
-    static void ReadUsers(SqlConnection connection)
+    static void ReadUserWithRoles(SqlConnection connection)
+    {
+        var repository = new UserRepository(connection);
+        var items = repository.GetWithRoles();
+
+        foreach (var item in items){
+            Console.WriteLine(item.Name);
+            foreach(var role in item.Roles)
+            {
+                Console.WriteLine($" - {role.Name}");
+            }
+        }
+    }
+
+        static void CreateUser(SqlConnection connection)
     {
         var repository = new Repository<User>(connection);
-        var items = repository.Get();
+        var newUser = new User { Name = "Jota", Email = "Jota@gmail.com", PasswordHash = "Hash", Bio = "Bio", Image = "Image", Slug = "jota"};
 
-        foreach (var item in items)
-            Console.WriteLine(item.Name);
+        repository.Create(newUser);
     }
     static void ReadRoles(SqlConnection connection)
     {
