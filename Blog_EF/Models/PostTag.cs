@@ -1,4 +1,4 @@
-namespace Blog_EF
+namespace Blog_EF.Models
 {
     public class PostTag
     {
