@@ -1,10 +1,9 @@
 using Blog_EF.Models;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace Blog_EF.Data 
 {
-    public class BLogDataContext : DbContext
+    public class BlogDataContext : DbContext
     {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Post> Posts { get; set; }
