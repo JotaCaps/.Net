@@ -7,19 +7,20 @@ using System.Data.Common;
 using System.Reflection.Metadata.Ecma335;
 using System.Reflection.Metadata;
 using Blog.Screens.TagScreens;
+using Blog;
 
 internal class Program
 {
     private const string CONNECTION_STRING = "Server=localhost,1433;Database=Blog;User ID=sa;Password=1q2w3e4r@#$;Encrypt=True;TrustServerCertificate=True;";
     private static void Main(string[] args)
     {
-        var connection = new SqlConnection(CONNECTION_STRING);
-        connection.Open();
+        Database.Connection = new SqlConnection(CONNECTION_STRING);
+        Database.Connection.Open();
 
         Load();
 
         Console.ReadKey();
-        connection.Close();
+        Database.Connection.Close();
     }
 
         private static void Load()
@@ -42,7 +43,7 @@ internal class Program
 
             switch (option)
             {
-                case 1:
+                case 4:
                     MenuTagScreen.Load();
                     break;
                 default: Load(); break;
