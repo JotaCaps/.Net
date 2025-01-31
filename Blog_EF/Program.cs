@@ -1,5 +1,6 @@
 ﻿using Blog_EF.Data;
 using Blog_EF.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 internal class Program
@@ -8,20 +9,7 @@ internal class Program
     {
         using(var context = new BlogDataContext())
         {
-            // var tag = new Tag { Name = "ASP.NET", Slug = "aspnet"};
-            // context.Tags.Add(tag);
-            // context.SaveChanges();
 
-            // var tag = context.Tags.FirstOrDefault(x => x.Id == 2);
-            // tag.Name = ".NET";
-            // tag.Slug = "dotnet";
-
-            // context.Update(tag);
-            // context.SaveChanges();
-
-            var tag = context.Tags.FirstOrDefault(x => x.Id == 2);
-            context.Remove(tag);
-            context.SaveChanges();
         }
     }
 }

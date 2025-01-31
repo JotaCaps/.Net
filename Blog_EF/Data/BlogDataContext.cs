@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using Blog_EF.Models;
 using Microsoft.EntityFrameworkCore;
 
