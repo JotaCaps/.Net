@@ -34,7 +34,7 @@ namespace Blog_EF.Models
         public DateTime CreateDate { get; set; }
 
         [Required]
-        [Column("CreateDate", TypeName = "DATETIME")]
+        [Column("LastUpdateDate", TypeName = "DATETIME")]
         public DateTime LastUpdateDate { get; set; }
 
         
