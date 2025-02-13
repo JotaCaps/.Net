@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Blog3.Models;
+﻿using Blog3.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
