@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Data",
     "\\Data\\Mappings"
   ],
-  "SelectedNode": "\\Data",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
