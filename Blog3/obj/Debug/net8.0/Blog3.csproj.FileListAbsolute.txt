@@ -1,5 +1,6 @@
 C:\Estudos\.Net\Blog3\bin\Debug\net8.0\appsettings.Development.json
 C:\Estudos\.Net\Blog3\bin\Debug\net8.0\appsettings.json
+C:\Estudos\.Net\Blog3\bin\Debug\net8.0\Blog3.staticwebassets.endpoints.json
 C:\Estudos\.Net\Blog3\bin\Debug\net8.0\Blog3.exe
 C:\Estudos\.Net\Blog3\bin\Debug\net8.0\Blog3.deps.json
 C:\Estudos\.Net\Blog3\bin\Debug\net8.0\Blog3.runtimeconfig.json
@@ -148,14 +149,16 @@ C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.AssemblyInfo.cs
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.csproj.CoreCompileInputs.cache
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.MvcApplicationPartsAssemblyInfo.cache
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.sourcelink.json
+C:\Estudos\.Net\Blog3\obj\Debug\net8.0\scopedcss\bundle\Blog3.styles.css
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets.build.json
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets.development.json
+C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets\msbuild.Blog3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets\msbuild.Blog3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets\msbuild.build.Blog3.props
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Blog3.props
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blog3.props
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Estudos\.Net\Blog3\obj\Debug\net8.0\scopedcss\bundle\Blog3.styles.css
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.csproj.Up2Date
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\Blog3.dll
 C:\Estudos\.Net\Blog3\obj\Debug\net8.0\refint\Blog3.dll

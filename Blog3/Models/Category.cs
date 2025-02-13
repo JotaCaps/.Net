@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace Blog3.Models
 {
     public class Category
