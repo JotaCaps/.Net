@@ -4,7 +4,7 @@
     {
         int GetValue();
 
-        public class COnfigService : IConfigService
+        public class ConfigService : IConfigService
         {
             private int _value;
             public int GetValue()

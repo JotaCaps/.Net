@@ -1,6 +1,4 @@
-﻿
-
-using DevFreela.API.Enums;
+﻿using DevFreela.API.Enums;
 
 namespace DevFreela.API.Entities
 {
