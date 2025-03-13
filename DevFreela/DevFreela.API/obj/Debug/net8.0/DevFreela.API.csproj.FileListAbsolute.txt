@@ -171,4 +171,9 @@ C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\win\lib\net6.0
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Estudos\.Net\DevFreela\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.dll
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.dll
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.dll
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
+C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb

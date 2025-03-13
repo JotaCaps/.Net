@@ -1,0 +1,12 @@
+C:\Estudos\.Net\DevFreela\DevFreela.Core\bin\Debug\net8.0\DevFreela.Core.deps.json
+C:\Estudos\.Net\DevFreela\DevFreela.Core\bin\Debug\net8.0\DevFreela.Core.dll
+C:\Estudos\.Net\DevFreela\DevFreela.Core\bin\Debug\net8.0\DevFreela.Core.pdb
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.AssemblyInfoInputs.cache
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.AssemblyInfo.cs
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.csproj.CoreCompileInputs.cache
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.sourcelink.json
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.dll
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\refint\DevFreela.Core.dll
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\DevFreela.Core.pdb
+C:\Estudos\.Net\DevFreela\DevFreela.Core\obj\Debug\net8.0\ref\DevFreela.Core.dll
