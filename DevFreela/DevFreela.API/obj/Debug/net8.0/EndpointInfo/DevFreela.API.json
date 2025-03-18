@@ -18,6 +18,24 @@
               "type": "string",
               "default": ""
             }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
           }
         ],
         "responses": {
@@ -486,7 +504,7 @@
       "UpdateProjectInputModel": {
         "type": "object",
         "properties": {
-          "id": {
+          "idProject": {
             "type": "integer",
             "format": "int32"
           },

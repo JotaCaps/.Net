@@ -177,4 +177,3 @@ C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructur
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
 C:\Estudos\.Net\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb
-C:\Estudos\.Net\DevFreela\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
