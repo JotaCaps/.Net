@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("BookManagementCs");
+
+builder.Services.AddDbContext<BookManagementDbContext>(o => o.UseSqlServer(connectionString));
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -11,8 +15,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
-builder.Services.AddDbContext<BookManagementDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("Server=localhost,1433;Database=BookManagementeDb;User ID=sa;Password=1q2w3e4r@#$;Encrypt=True;TrustServerCertificate=True;")));
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

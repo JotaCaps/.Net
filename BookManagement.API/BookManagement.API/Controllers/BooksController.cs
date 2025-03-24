@@ -1,5 +1,4 @@
-﻿using BookManagement.API.Entities;
-using BookManagement.API.Models;
+﻿using BookManagement.API.Models;
 using BookManagement.API.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,9 +29,9 @@ namespace BookManagement.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            var books = _context.Books;
+            var book = _context.Books;
 
-            var model = books.Select(BookViewModel.FromEntity);
+            var model = book.Where(b => b.Id == id).FirstOrDefault();
             
             return Ok(model);
         }

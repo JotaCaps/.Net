@@ -28,7 +28,6 @@ C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticweb
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookManagement.API.props
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookManagement.API.props
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\BookMana.AFAFD8CC.Up2Date
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\BookManagement.API.dll
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\refint\BookManagement.API.dll
@@ -171,3 +170,4 @@ C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\runtimes\
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

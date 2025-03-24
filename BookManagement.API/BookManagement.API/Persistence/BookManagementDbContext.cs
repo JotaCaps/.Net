@@ -1,6 +1,5 @@
 ﻿using BookManagement.API.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata.Ecma335;
 
 namespace BookManagement.API.Persistence
 {
@@ -13,13 +12,20 @@ namespace BookManagement.API.Persistence
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder
-                .Entity<Book>( e =>
+                .Entity<Book>(e =>
                 {
                     e.HasKey(b => b.Id);
+                });
+
+            builder
+                .Entity<User>(e =>
+                {
+                    e.HasKey(u => u.Id);
                 });
 
             base.OnModelCreating(builder);
