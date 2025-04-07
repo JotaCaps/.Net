@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookManagement.API.Controllers
 {
     [ApiController]
-    [Route("api/books")]
+    [Route("api/users")]
     public class UsersController : ControllerBase
     {
         private readonly BookManagementDbContext _context;
@@ -18,12 +18,17 @@ namespace BookManagement.API.Controllers
         [HttpPost]
         public IActionResult Post(RegisterUserInputModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var user = model.ToEntity();
 
             _context.Users.Add(user);
             _context.SaveChanges();
 
-            return Ok();
+            return Ok(user);
         }
     }
 }

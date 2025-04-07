@@ -9,6 +9,7 @@
             Author = author;
             ISBN = iSBN;
             PublicationYear = publicationYear;
+            Lendings = [];
         }
 
         public int Id { get; private set; }
@@ -16,5 +17,7 @@
         public string Author{ get; private set; }
         public string? ISBN { get; private set; }
         public int PublicationYear { get; private set; }
+
+        public List<Loan> Lendings { get; private set; }
     }
 }

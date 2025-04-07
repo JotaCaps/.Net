@@ -18,12 +18,17 @@ namespace BookManagement.API.Controllers
         [HttpPost]
         public IActionResult Post(RegisterBookInputModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var book = model.ToEntity();
 
             _context.Books.Add(book);
             _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetById), new { i = 1 }, model);
+            return CreatedAtAction(nameof(GetById), new { id = book.Id }, model);
         }
 
         [HttpGet("{id}")]
@@ -54,7 +59,7 @@ namespace BookManagement.API.Controllers
 
             if (book == null)
             {
-                NoContent();
+               return NoContent();
             }
 
             _context.Books.Remove(book);

@@ -10,9 +10,9 @@ namespace BookManagement.API.Persistence
         {
             
         }
-
         public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Loan> Lendings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -27,6 +27,24 @@ namespace BookManagement.API.Persistence
                 {
                     e.HasKey(u => u.Id);
                 });
+
+            builder
+                .Entity<Loan>(e =>
+                {
+                    e.HasKey(l => l.Id);
+                });
+
+            builder.Entity<Loan>()
+                .HasOne(l => l.User)
+                .WithMany(l => l.Lendings)
+                .HasForeignKey(l => l.IdUser)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Loan>()
+                .HasOne(b => b.Book)
+                .WithMany(b => b.Lendings)
+                .HasForeignKey(b => b.IdBook)
+                .OnDelete(DeleteBehavior.Restrict);
 
             base.OnModelCreating(builder);
         }

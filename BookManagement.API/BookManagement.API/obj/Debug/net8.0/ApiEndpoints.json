@@ -62,5 +62,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.API.Controllers.LoanController",
+    "Method": "Post",
+    "RelativePath": "api/lendings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BookManagement.API.Models.RegisterLoanInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.API.Controllers.UsersController",
+    "Method": "Post",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BookManagement.API.Models.RegisterUserInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
