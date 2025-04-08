@@ -12,7 +12,7 @@ namespace BookManagement.API.Persistence
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Loan> Lendings { get; set; }
+        public DbSet<Loan> Loans { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -36,13 +36,13 @@ namespace BookManagement.API.Persistence
 
             builder.Entity<Loan>()
                 .HasOne(l => l.User)
-                .WithMany(l => l.Lendings)
+                .WithMany(l => l.Loans)
                 .HasForeignKey(l => l.IdUser)
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<Loan>()
                 .HasOne(b => b.Book)
-                .WithMany(b => b.Lendings)
+                .WithMany(b => b.Loans)
                 .HasForeignKey(b => b.IdBook)
                 .OnDelete(DeleteBehavior.Restrict);
 

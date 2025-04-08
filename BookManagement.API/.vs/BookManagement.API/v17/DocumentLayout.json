@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Estudos\\.Net\\BookManagement.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\registeruserinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\models\\registeruserinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\registerbookinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +15,36 @@
       "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\registerloaninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\models\\registerloaninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\registerloaninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\models\\registerloaninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\returnbookinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\models\\returnbookinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\persistence\\bookmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\persistence\\bookmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|c:\\estudos\\.net\\bookmanagement.api\\bookmanagement.api\\models\\registeruserinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84C7E01-B587-461C-AAF3-BFF9B514D81E}|BookManagement.API\\BookManagement.API.csproj|solutionrelative:bookmanagement.api\\models\\registeruserinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +54,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReturnBookInputModel.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\ReturnBookInputModel.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Models\\ReturnBookInputModel.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\ReturnBookInputModel.cs",
+              "RelativeToolTip": "BookManagement.API\\Models\\ReturnBookInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:09:23.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Entities\\User.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\User.cs",
+              "RelativeToolTip": "BookManagement.API\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:04:44.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Entities\\Book.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Book.cs",
+              "RelativeToolTip": "BookManagement.API\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:04:19.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "BookManagement.API\\Controllers\\UsersController.cs",
@@ -55,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RegisterBookInputModel.cs",
               "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterBookInputModel.cs",
               "RelativeDocumentMoniker": "BookManagement.API\\Models\\RegisterBookInputModel.cs",
@@ -68,33 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterUserInputModel.cs",
-              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterUserInputModel.cs",
-              "RelativeDocumentMoniker": "BookManagement.API\\Models\\RegisterUserInputModel.cs",
-              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterUserInputModel.cs",
-              "RelativeToolTip": "BookManagement.API\\Models\\RegisterUserInputModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:44:58.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "BookManagement.API\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "BookManagement.API\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:36:39.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterLoanInputModel.cs",
               "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterLoanInputModel.cs",
               "RelativeDocumentMoniker": "BookManagement.API\\Models\\RegisterLoanInputModel.cs",
@@ -107,28 +136,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Loan.cs",
-              "RelativeDocumentMoniker": "BookManagement.API\\Entities\\Loan.cs",
-              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Loan.cs",
-              "RelativeToolTip": "BookManagement.API\\Entities\\Loan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:03:44.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LoanController.cs",
               "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\LoanController.cs",
               "RelativeDocumentMoniker": "BookManagement.API\\Controllers\\LoanController.cs",
               "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\LoanController.cs",
               "RelativeToolTip": "BookManagement.API\\Controllers\\LoanController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T19:03:13.132Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Loan.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Entities\\Loan.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Entities\\Loan.cs",
+              "RelativeToolTip": "BookManagement.API\\Entities\\Loan.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:03:44.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Persistence\\BookManagementDbContext.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Persistence\\BookManagementDbContext.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Persistence\\BookManagementDbContext.cs",
+              "RelativeToolTip": "BookManagement.API\\Persistence\\BookManagementDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:03:32.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookManagement.API\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:36:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterUserInputModel.cs",
+              "DocumentMoniker": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterUserInputModel.cs",
+              "RelativeDocumentMoniker": "BookManagement.API\\Models\\RegisterUserInputModel.cs",
+              "ToolTip": "C:\\Estudos\\.Net\\BookManagement.API\\BookManagement.API\\Models\\RegisterUserInputModel.cs",
+              "RelativeToolTip": "BookManagement.API\\Models\\RegisterUserInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:44:58.451Z"
             }
           ]
         }

@@ -26,10 +26,40 @@ namespace BookManagement.API.Controllers
 
             var lending = model.ToEntity();
 
-            _context.Lendings.Add(lending);
+            _context.Loans.Add(lending);
             _context.SaveChanges();
 
             return Ok();
+        }
+
+        [HttpPatch("{id}/return")]
+        public IActionResult RegisterReturn(int id, [FromBody] ReturnBookInputModel model)
+        {
+            var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
+
+            if (loan == null)
+            {
+                return NotFound("Empréstimo não encontrado");
+            }
+
+            if (loan.ReturnDate != null)
+            {
+                return BadRequest("O livro já foi devolvido");
+            }
+
+            loan.RegisterReturn(model.ReturnDate);
+            _context.SaveChanges();
+
+            var diasDeAtraso = (model.ReturnDate - loan.LandingDate).Days;
+
+            if (diasDeAtraso > 1)
+            {
+                return Ok($"Livro devolvido com {diasDeAtraso - 1} dias de atraso");
+            }
+            else
+            {
+                return Ok("Devolução registrada no prazo");
+            }
         }
     }
 }
