@@ -170,4 +170,10 @@ C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\refint\Bo
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\BookManagement.API.pdb
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\BookManagement.API.genruntimeconfig.cache
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\ref\BookManagement.API.dll
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Application.dll
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Core.dll
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Infrastructure.dll
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Application.pdb
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Core.pdb
+C:\Estudos\.Net\BookManagement.API\BookManagement.API\bin\Debug\net8.0\BookManagement.Infrastructure.pdb
 C:\Estudos\.Net\BookManagement.API\BookManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

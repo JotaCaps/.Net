@@ -1,4 +1,4 @@
-using BookManagement.API.Persistence;
+using BookManagement.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

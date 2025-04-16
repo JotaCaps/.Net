@@ -1,5 +1,5 @@
-﻿using BookManagement.API.Models;
-using BookManagement.API.Persistence;
+﻿using BookManagement.Application.Models;
+using BookManagement.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 

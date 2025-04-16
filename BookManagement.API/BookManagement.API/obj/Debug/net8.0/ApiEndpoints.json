@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "BookManagement.API.Models.RegisterBookInputModel",
+        "Type": "BookManagement.Application.Models.RegisterBookInputModel",
         "IsRequired": true
       }
     ],
@@ -73,7 +73,28 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "BookManagement.API.Models.RegisterLoanInputModel",
+        "Type": "BookManagement.Application.Models.RegisterLoanInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.API.Controllers.LoanController",
+    "Method": "RegisterReturn",
+    "RelativePath": "api/lendings/{id}/return",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "BookManagement.Application.Models.ReturnBookInputModel",
         "IsRequired": true
       }
     ],
@@ -89,7 +110,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "BookManagement.API.Models.RegisterUserInputModel",
+        "Type": "BookManagement.Application.Models.RegisterUserInputModel",
         "IsRequired": true
       }
     ],
